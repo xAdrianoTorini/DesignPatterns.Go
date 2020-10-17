@@ -1,10 +1,10 @@
 package main
 
 type maverick struct {
-	gun
+	gun //Composition
 }
 
-func newMaverick() iGun {
+func newMaverick() iGun { //Returns a Interface
 	return &maverick{
 		gun: gun{
 			name:  "Maverick gun",

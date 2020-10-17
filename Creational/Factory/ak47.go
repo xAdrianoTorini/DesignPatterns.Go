@@ -1,10 +1,10 @@
 package main
 
 type ak47 struct {
-	gun
+	gun //Composition
 }
 
-func newAk47() iGun {
+func newAk47() iGun { //Returns a Interface
 	return &ak47{
 		gun: gun{
 			name:  "AK47 gun",

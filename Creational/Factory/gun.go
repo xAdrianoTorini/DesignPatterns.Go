@@ -1,5 +1,6 @@
 package main
 
+//Base Class
 type gun struct {
 	name  string
 	power int
